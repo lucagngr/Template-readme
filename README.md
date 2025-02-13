@@ -5,20 +5,20 @@ Here’s a project I’m sharing with you. You’re invited to contribute by sug
 
 How to Modify My Project on GitHub Clone the Project: If you don't have the project locally, start by cloning it from GitHub to your computer. This will copy all the project content into a local folder.
 
-bash:
-git clone https://github.com/my-username/my-project.git
+`bash:
+git clone https://github.com/my-username/my-project.git`
 
 Create a New Branch: Before making any changes, create a new branch to work on your updates without affecting the main branch (main or master). Use a descriptive branch name to organize your work better.
 
-bash:
-git checkout -b my-branch-name
+`bash:
+git checkout -b my-branch-name`
 
 Make Your Changes: Now, make the necessary modifications to your project locally. This could be adding new features, fixing bugs, or updating code.
 
 Check the Status of Changes: After making changes, use the following command to see what files have been modified:
 
-bash:
-git status Add
+`bash:
+git status Add`
 
 the Modified Files: Add the modified files to the staging area (preparing for commit) using the git add command:
 
@@ -29,13 +29,13 @@ The dot (.) adds all modified files, but you can also specify individual files i
 
 Commit Your Changes: Once your changes are ready, commit them to save the updates in Git's history. Use a clear and descriptive commit message to explain the changes.
 
-bash:
-git commit -m "Description of my changes"
+`bash:
+git commit -m "Description of my changes"`
 
 Push the Branch to GitHub: Push your changes to GitHub on the new branch you created.
 
-bash:
-git push origin my-branch-name
+`bash:
+git push origin my-branch-name`
 
 Open a Pull Request: After pushing your changes to GitHub, go to your GitHub repository, and you’ll see an option to open a Pull Request (PR). A PR lets you submit your changes to be reviewed before they’re merged into the main branch.
 
@@ -45,11 +45,12 @@ Delete the Branch (Optional): After merging your Pull Request, you can delete th
 
 To delete locally:
 
-bash: git branch -d my-branch-name
+`bash: git branch -d my-branch-name`
 
 To delete on GitHub:
 
-bash: git push origin --delete my-branch-name
+`bash:
+git push origin --delete my-branch-name`
 
 By following these steps, you can easily modify your project on GitHub while keeping your code and modification history well-organized.
 
@@ -61,35 +62,37 @@ Ce project "le projet en question" que je partage avec vous. N'hésitez pas à a
 
 Comment Modifier Mon Projet sur GitHub Cloner le Projet : Si vous n'avez pas le projet en local, commencez par le cloner depuis GitHub sur votre ordinateur. Cela copiera tout le contenu du projet dans un dossier local.
 
-bash 
-git clone https://github.com/mon-nom-utilisateur/mon-projet.git
+`bash 
+git clone https://github.com/mon-nom-utilisateur/mon-projet.git`
 
 Créer une Nouvelle Branche : Avant de faire des modifications, créez une nouvelle branche pour travailler sur vos mises à jour sans affecter la branche principale (main ou master). Utilisez un nom de branche descriptif pour mieux organiser votre travail.
 
-bash 
-git checkout -b nom-de-ma-branche
+`bash 
+git checkout -b nom-de-ma-branche`
 
 Faire Vos Modifications : Maintenant, effectuez les modifications nécessaires à votre projet en local. Cela peut inclure l'ajout de nouvelles fonctionnalités, la correction de bugs ou la mise à jour du code.
 
 Vérifier l'État des Modifications : Après avoir apporté des modifications, utilisez la commande suivante pour voir quels fichiers ont été modifiés :
 
-bash
-git status
+`bash
+git status`
 
 Ajouter les Fichiers Modifiés : Ajoutez les fichiers modifiés à la zone de staging (préparation pour le commit) en utilisant la commande git add :
 
-bash 
-git add .
+`bash 
+git add .`
 
 Le point (.) ajoute tous les fichiers modifiés, mais vous pouvez aussi spécifier des fichiers individuels si nécessaire.
 
 Valider Vos Modifications (Commit) : Une fois vos modifications prêtes, validez-les pour enregistrer les mises à jour dans l'historique de Git. Utilisez un message de commit clair et descriptif pour expliquer les changements.
 
-bash git commit -m "Description de mes modifications"
+`bash
+git commit -m "Description de mes modifications"`
 
 Pousser la Branche sur GitHub : Poussez vos modifications sur GitHub dans la nouvelle branche que vous avez créée.
 
-bash git push origin nom-de-ma-branche
+`bash
+git push origin nom-de-ma-branche`
 
 Ouvrir une Pull Request : Après avoir poussé vos modifications sur GitHub, allez dans votre dépôt GitHub, et vous verrez une option pour ouvrir une Pull Request (PR). Une PR vous permet de soumettre vos modifications pour qu'elles soient examinées avant d'être fusionnées dans la branche principale.
 
@@ -97,13 +100,13 @@ Examiner et Fusionner : Si vous travaillez seul, vous pouvez examiner vos modifi
 
 Supprimer la Branche (Optionnel) : Après avoir fusionné votre Pull Request, vous pouvez supprimer la branche en local et sur GitHub pour garder votre projet propre. Pour supprimer en local :
 
-bash 
-git branch -d nom-de-ma-branche
+`bash 
+git branch -d nom-de-ma-branche`
 
 Pour supprimer sur GitHub :
 
-bash
-git push origin --delete nom-de-ma-branche
+`bash
+git push origin --delete nom-de-ma-branche`
 
 En suivant ces étapes, vous pouvez facilement modifier votre projet sur GitHub tout en gardant votre code et l'historique des modifications bien organisés.
 
