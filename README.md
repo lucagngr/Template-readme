@@ -22,8 +22,8 @@ git status Add
 
 the Modified Files: Add the modified files to the staging area (preparing for commit) using the git add command:
 
-bash:
-git add .
+```bash:
+git add .```
 
 The dot (.) adds all modified files, but you can also specify individual files if needed.
 
